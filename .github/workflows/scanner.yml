@@ -16,6 +16,6 @@ jobs:
 
       - name: Test Telegram
         env:
-          TELEGRAM_TOKEN: ${{ secrets.TELEGRAMTOKEN
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAMTOKEN}}
           CHAT_ID: ${{ secrets.CHAT_ID }}
         run: python test_bot.py
