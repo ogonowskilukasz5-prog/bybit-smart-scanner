@@ -2,7 +2,7 @@ import os
 import asyncio
 from telegram import Bot
 
-TOKEN = os.getenv("TELEGRAM_TOKEN")
+TOKEN = os.getenv("TELEGRAMTOKEN")
 CHAT_ID = os.getenv("CHAT_ID")
 
 
